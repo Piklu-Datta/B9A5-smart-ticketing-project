@@ -60,6 +60,9 @@ function updateGrandTotal(value)
             document.getElementById('grand-total').innerText=totalcostElement-bonus;
             inputfieldHide();
         }
+        else{
+            alert("Cupon code is invalid");
+        }
       
     }
   
